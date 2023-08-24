@@ -38,4 +38,4 @@ Il est possible de demander au bot d'afficher les changements tous les matins à
 A chaque appel, le bot ouvre une version sans interface (headless) du navigateur chromium, se connecte à Parcoursup et récupère les informations de la page.
 
 ## Captures d'écran ?
-![Capture d'écran montrant une réponse du bot à la commande /all](https://cdn.discordapp.com/attachments/966746579799253033/981999578637299782/Screenshot_2022-06-02-21-15-39-44_572064f74bd5f9fa804b05334aa4f912.jpg)
+![Capture d'écran montrant une réponse du bot à la commande /all](https://hixy.tk/assets/pcsbot.jpg)
