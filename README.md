@@ -11,6 +11,8 @@ npm ci
 - appID: l'identification de l'application discord
 - botToken: le token du bot
 - channelAnnounce: l'id du channel par défaut dans lequel la fonction sendMessage enverra les messages
+- security_iv: un vecteur d'initialisation, peut être généré avec `crypto.randomBytes(16);`
+- secutiry_key: une clé de sécurité, peut être générée avec `crypto.randomBytes(32);`
 
 3. Enregistrer les commandes "slash" du bot: 
 ```bash
@@ -38,4 +40,4 @@ Il est possible de demander au bot d'afficher les changements tous les matins à
 A chaque appel, le bot ouvre une version sans interface (headless) du navigateur chromium, se connecte à Parcoursup et récupère les informations de la page.
 
 ## Captures d'écran ?
-![Capture d'écran montrant une réponse du bot à la commande /all](https://hixy.tk/assets/pcsbot.jpg)
+![Capture d'écran montrant une réponse du bot à la commande /all](https://hixy.tk/assets/pcsbot.webp)
